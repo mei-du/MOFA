@@ -4,7 +4,7 @@ from setuptools import find_packages
 import sys
 
 def setup_package():
-  install_requires = ['pandas', 'scipy', 'numpy', 'sklearn', 'argparse', 'h5py']
+  install_requires = ['pandas', 'scipy', 'numpy', 'scikit-learn', 'argparse', 'h5py']
   metadata = dict(
       name = 'mofapy',
       version = '1.2',
